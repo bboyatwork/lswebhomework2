@@ -20,7 +20,7 @@ nav {
   padding: 20px 10px;
 }
 nav ul {
-  floPat: right;
+  float: right;
 }
 nav li {
   display: inline;
