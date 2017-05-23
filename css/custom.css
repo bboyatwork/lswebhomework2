@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +12,15 @@ header{
   min-height: 300px;max-height: 600px;
   width: 100%;
   color: white;
-  font-family: "Helvatica";
+  font-weight: bold;
+  font-family: "Helvetica","Arial","Times";
 }
 
 nav {
   padding: 20px 10px;
 }
 nav ul {
-  float: right;
+  floPat: right;
 }
 nav li {
   display: inline;
@@ -27,19 +30,30 @@ nav li {
 }
 
 .header-container {
-  text-align: center;
-  margin: 60px 30px 45px 30px;
+  margin-bottom: 50px;
+  padding: 5% 20%;
 }
-.container, h1{
-  text-align: center;
+.container{
+  text-align: justify;
   margin: 0 auto;
+  padding: 0 15%;
+
 }
 
 h1, h2, h3 {
-  text-decoration-style: bold;
+  font-weight: bold;
+
 }
+
 p{
   font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.byline {
+  font-size: 1/7rem;
+  font-style: italic;
+  font-weight: normal;
 }
 
 blockquote, figcaption{
@@ -48,10 +62,14 @@ blockquote, figcaption{
 }
 
 figure img{
-  max-width: 600px;
+  max-width: 100%;
 }
 
 figcaption {
     font-size: .9em;
     padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
 }
